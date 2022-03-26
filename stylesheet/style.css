@@ -165,7 +165,7 @@
     border-width: 5px;
 }
 
-#items {
+#options {
     display: flex;
     flex: auto;
     flex-direction: row;
