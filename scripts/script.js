@@ -77,8 +77,8 @@ function checkWinner() {
     if (playerScoreBoard === 5 || computerScoreBoard === 5) {
         const winner =
             playerScoreBoard === 5 ?
-            "You win the game! Congratulations!" :
-            "Computer wins the game! Try again next time!";
+            "You have defeated your opponent! Congratulations! You Win!!" :
+            "Computer wins the game! You Lose!! Try again next time!";
         alert(winner);
         return true;
     }
