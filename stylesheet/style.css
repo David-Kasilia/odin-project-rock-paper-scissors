@@ -1,7 +1,6 @@
 #head-container {
     display: flex;
     flex-direction: row;
-    flex: auto;
     background: white;
     height: 200px;
     align-items: center;
@@ -24,9 +23,8 @@
 
 .game-des {
     display: flex;
-    flex: auto;
     background-color: white;
-    height: 280px;
+    height: 320px;
     font-family: 'Cormorant Garamond', serif;
     font-size: 28px;
     align-content: center;
@@ -37,7 +35,6 @@
 
 .game-quiz {
     display: flex;
-    flex: auto;
     align-content: center;
     background-color: white;
     height: 100px;
@@ -50,7 +47,6 @@
 #buttons {
     display: flex;
     flex-direction: row;
-    flex: auto;
     height: 100px;
     justify-content: space-evenly;
     align-items: center;
@@ -81,7 +77,6 @@
 
 .footer {
     display: flex;
-    flex: auto;
     align-content: center;
     background-color: white;
     height: 80px;
@@ -94,7 +89,6 @@
 #title {
     display: flex;
     flex-direction: row;
-    flex: auto;
     background: white;
     height: 300px;
     align-items: center;
@@ -117,7 +111,6 @@
 
 #game-inst {
     display: flex;
-    flex: auto;
     background-color: white;
     height: 250px;
     flex-direction: column;
@@ -129,7 +122,6 @@
 
 .items {
     display: flex;
-    flex: auto;
     flex-direction: column;
     align-content: center;
     background-color: white;
@@ -143,7 +135,6 @@
 
 #choose {
     display: flex;
-    flex: auto;
     flex-direction: row;
     height: 300px;
     justify-content: space-around;
@@ -167,7 +158,6 @@
 
 #options {
     display: flex;
-    flex: auto;
     flex-direction: row;
     height: 100px;
     justify-content: space-around;
@@ -205,7 +195,6 @@
 
 .scores {
     display: flex;
-    flex: auto;
     flex-direction: column;
     align-content: center;
     background-color: white;
@@ -219,7 +208,6 @@
 
 #scores-board {
     display: flex;
-    flex: auto;
     flex-direction: row;
     height: 100px;
     justify-content: space-evenly;
@@ -231,14 +219,12 @@
 
 #results {
     display: flex;
-    flex: auto;
     flex-direction: column;
     align-content: center;
     background-color: white;
-    height: 200px;
+    height: 250px;
     font-family: 'Orbitron', sans-serif;
     font-size: 30px;
     margin-top: 15px;
-    line-height: 5px;
     text-align: center;
 }
